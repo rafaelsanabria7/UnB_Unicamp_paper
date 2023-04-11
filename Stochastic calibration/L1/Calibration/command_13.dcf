@@ -1,0 +1,412 @@
+*PHASE LABEL="Phased" 
+  BEGIN ACTIVE 
+    ELEMEN "Slab" "Column" "Load_plates" "Load_Plates-1" "Composed_EC" \ 
+           "Composed_MC" "Beam" "Interface Element" "Interface Element-1" \ 
+           "Corbel" "Support_plates" "Interface Element-2" "Beam_support" \ 
+           "Column_support" "Spring_vertical" / 
+    REINFO "Bar_16_column(1)" "Bar_16_column(2)" "Bar_16_Top(1)" \ 
+           "Bar_16_Top(2)" "Bar_16_Top(3)" "Bar_16_Top(4)" "Bar_16_Top(5)" \ 
+           "Bar_16_column(8)" "Bar_16_column(9)" "Bar_16_column(10)" \ 
+           "Bar_16_column(11)" "Bar_16_Top(6)" "Bar_16_Top(7)" \ 
+           "Bar_16_Top(8)" "Bar_16_column(3)" "Bar_16_Top(9)" \ 
+           "Bar_16_column(4)" "Bar_16_column(5)" "Bar_16_column(6)" \ 
+           "Bar_16_Top(10)" "Bar_16_column(1)-1" "Bar_16_column(2)-2" \ 
+           "Bar_16_column(3)-3" "Bar_16_column(4)-4" "Bar_16_Top(11)" \ 
+           "Bar_16_Top(12)" "Bar_16_Top(13)" "Bar_16_Top(14)" \ 
+           "Bar_16_column(5)-5" "Bar_16_column(6)-6" "Bar_16_Top(15)" \ 
+           "Bar_16_Top(16)" "Bar_16_Top(17)" "Bar_16_Top(18)" \ 
+           "Bar_16_Top(19)" "Bar_16_Top(20)" "Bar_16_half(1)" \ 
+           "Bar_16_half(2)" "Bar_16_half(3)" "Bar_16_half(1)-1" "Bar_16(9)" \ 
+           "Bar_16(10)" "Bar_16(11)" "Bar_16(12)" "Bar_16(13)" "Bar_16(14)" \ 
+           "Bar_16(15)" "Bar_16_half(2)-2" "Bar_12.5_half(1)" \ 
+           "Bar_12.5_half(2)" "Bar_12.5_half(3)" "Bar_12.5_half(1)-1" \ 
+           "Bar_12.5_half(2)-2" "Stirrups(1)" "Stirrups(2)" "Stirrups(3)" \ 
+           "Stirrups(4)" "Stirrups(5)" "Stirrups(6)" "Stirrups(7)" \ 
+           "Stirrups(8)" "Stirrups(9)" "Stirrups_6.3(1)" "Stirrups_6.3(2)" \ 
+           "Stirrups_6.3(3)" "Stirrups_6.3(4)" "Stirrups_6.3(5)" \ 
+           "Stirrups_6.3(6)" "Stirrups_6.3(7)" "Stirrups_6.3(8)" \ 
+           "Stirrups_6.3(9)" "Stirrups_6.3(10)" "Stirrups_6.3(11)" \ 
+           "Stirrups_6.3(12)" "Stirrups_6.3(22)" "Stirrups_6.3(23)" \ 
+           "Stirrups_6.3(1)-1" "Bar_16(34)" "Bar_16(35)" "Bar_16(36)" \ 
+           "Bar_16(37)" "Bar_16(38)" "Bar_16(39)" "Bar_16(40)" "Bar_16(41)" \ 
+           "Bar_16(42)" "Bar_16(43)" "Bar_16(44)" "Bar_16(45)" "Bar_16(46)" \ 
+           "Bar_16(47)" "Bar_16(17)-17" "Bar_16(18)-18" "Bar_16(19)-19" \ 
+           "Bar_16(20)-20" "Bar_16(21)-21" "Bar_16(22)-22" "Bar_16(23)-23" \ 
+           "Bar_16(24)-24" "Bar_16(25)-25" "Bar_16(26)-26" "Bar_16(27)-27" \ 
+           "Bar_16(28)-28" "Bar_16(29)-29" "Bar_16(30)-30" "Bar_12.5(1)" \ 
+           "Bar_12.5(2)" "Bar_12.5(3)" "Bar_12.5(4)" "Bar_12.5(5)" \ 
+           "Bar_12.5(6)" "Bar_12.5(14)" "Bar_12.5(15)" "Bar_12.5(16)" \ 
+           "Bar_12.5(17)" "Bar_12.5(18)" "Bar_12.5(19)" "Bar_12.5(20)" \ 
+           "Bar_12.5(21)" "Bar_12.5(22)" "Bar_12.5(23)" "Bar_12.5(24)" \ 
+           "Bar_12.5(25)" "Bar_12.5(1)-1" "Bar_12.5(2)-2" "Bar_12.5(3)-3" \ 
+           "Bar_12.5(4)-4" "Bar_12.5(5)-5" "Bar_12.5(6)-6" "Bar_12.5(7)-7" \ 
+           "Bar_12.5(8)-8" "Bar_12.5(9)-9" "Bar_12.5(10)-10" \ 
+           "Bar_12.5(11)-11" "Bar_12.5(12)-12" "Bar_12.5(13)-13" \ 
+           "Bar_12.5(14)-14" "Bar_12.5(15)-15" "Bar_12.5(16)-16" \ 
+           "Bar_12.5(17)-17" "Bar_12.5(18)-18" "Bar_12.5(19)-19" \ 
+           "Bar_12.5(20)-20" "Bar_12.5(21)-21" "Bar_12.5(22)-22" \ 
+           "Bar_12.5(23)-23" "Bar_12.5(24)-24" "Bar_12.5(25)-25" \ 
+           "Bar_12.5(26)" "Bar_12.5(27)" "Bar_12.5(28)" "Bar_12.5(29)" \ 
+           "Bar_12.5(30)" "Bar_12.5(31)" "Bar_12.5(32)" "Bar_12.5(33)" \ 
+           "Bar_12.5(34)" "Bar_12.5(35)" "Bar_12.5(36)" "Bar_12.5(37)" \ 
+           "Bar_12.5(38)" "Bar_12.5(39)" "Bar_12.5(40)" "Bar_12.5(41)" \ 
+           "Bar_12.5(42)" "Bar_12.5(43)" "Bar_12.5(44)" "Bar_12.5(45)" \ 
+           "Bar_12.5(46)" "Bar_12.5(47)" "Bar_12.5(48)" "Bar_12.5(49)" \ 
+           "Bar_12.5(50)" "Bar_12.5(51)" "Bar_12.5(52)" "Bar_12.5(53)" \ 
+           "Bar_12.5(54)" "Bar_12.5(55)" "Bar_12.5(56)" "Bar_12.5(57)" \ 
+           "Bar_12.5(58)" "Bar_12.5(59)" "Bar_12.5(60)" "Bar_12.5(1)-62" \ 
+           "Bar_12.5(2)-63" "Bar_12.5(3)-64" "Bar_12.5(4)-65" \ 
+           "Bar_12.5(5)-66" "Bar_12.5(6)-67" "Bar_12.5(7)-68" \ 
+           "Bar_12.5(8)-69" "Bar_12.5(9)-70" "Bar_12.5(10)-71" \ 
+           "Bar_12.5(11)-72" "Bar_12.5(12)-73" "Bar_12.5(1)-88" \ 
+           "Bar_12.5(2)-89" "Bar_12.5(3)-90" "Bar_12.5(4)-91" \ 
+           "Bar_12.5(5)-92" "Bar_12.5(6)-93" "Bar_12.5(7)-94" \ 
+           "Bar_12.5(8)-95" "Bar_12.5(9)-96" "Bar_12.5(10)-97" \ 
+           "Bar_12.5(11)-98" "Bar_12.5(12)-99" "Bar_12.5(13)-100" \ 
+           "Bar_12.5(14)-101" "Bar_12.5(15)-102" "Bar_12.5(16)-103" \ 
+           "Bar_12.5(17)-104" "Bar_12.5(18)-105" "Bar_12.5(19)-106" \ 
+           "Bar_12.5(20)-107" "Bar_12.5(21)-108" "Bar_12.5(22)-109" \ 
+           "Bar_12.5(23)-110" "Bar_12.5(24)-111" "Bar_12.5(25)-112" \ 
+           "Bar_12.5(26)-113" "Bar_12.5(27)-114" "Bar_12.5(28)-115" \ 
+           "Bar_12.5(29)-116" "Bar_12.5(30)-117" "Bar_12.5(31)-118" \ 
+           "Bar_12.5(32)-119" "Bar_12.5(33)-120" "Bar_12.5(34)-121" \ 
+           "Bar_12.5(35)-122" "Bar_12.5(36)-123" "Bar_12.5(37)-124" \ 
+           "Bar_12.5(38)-125" "Bar_12.5(39)-126" "Bar_12.5(40)-127" \ 
+           "Bar_12.5(41)-128" "Bar_12.5(42)-129" "Bar_12.5(43)-130" \ 
+           "Bar_12.5(44)-131" "Bar_12.5(45)-132" "Bar_12.5(46)-133" \ 
+           "Bar_12.5(47)-134" "Bar_12.5(48)-135" "Bar_12.5(49)-136" \ 
+           "Bar_12.5(50)-137" "Bar_12.5(51)-138" "Bar_12.5(52)-139" / 
+    SUPPOR "horizontal" "transversal" "beam" "column" 
+    TYINGS "Link Element" "Link Element-1" 
+    BEGIN AUTODE 
+      INTERF OFF 
+      BOUNDA OFF 
+    END AUTODE 
+  END ACTIVE 
+*NONLIN LABEL="Structural nonlinear" 
+  BEGIN EXECUT 
+    BEGIN LOAD 
+      LOADNR 1 
+      STEPS EXPLIC 
+    END LOAD 
+    BEGIN ITERAT 
+      MAXITE 100 
+      METHOD NEWTON 
+      LINESE 
+      BEGIN CONVER 
+        SIMULT ON 
+        FORCE CONTIN 
+        DISPLA CONTIN 
+        ENERGY CONTIN 
+      END CONVER 
+    END ITERAT 
+  END EXECUT 
+  SOLVE PARDIS 
+  BEGIN OUTPUT 
+    TEXT "Output 2" 
+    TABULA 
+    FILE  L1_13_DISP 
+    APPEND 
+    LAYOUT 
+    BEGIN SELECT 
+      NODES 39185 / 
+      BEGIN ELEMEN ALL / 
+        CROSSE ALL / 
+        INTPNT ALL / 
+        NODES ALL / 
+        STRPNT ALL / 
+      END ELEMEN 
+      BEGIN REINFO ALL / 
+        ELEMEN ALL / 
+        INTPNT ALL / 
+      END REINFO 
+      STEPS ALL / 
+    END SELECT 
+    FORCE REACTI TRANSL GLOBAL Z 
+  END OUTPUT 
+  BEGIN OUTPUT 
+    TEXT "Output 3" 
+    TABULA 
+    FILE  L1_13_FORCE 
+    APPEND 
+    LAYOUT 
+    BEGIN SELECT 
+      NODES 7496 / 
+      BEGIN ELEMEN ALL / 
+        CROSSE ALL / 
+        INTPNT ALL / 
+        NODES ALL / 
+        STRPNT ALL / 
+      END ELEMEN 
+      BEGIN REINFO ALL / 
+        ELEMEN ALL / 
+        INTPNT ALL / 
+      END REINFO 
+      STEPS ALL / 
+    END SELECT 
+    DISPLA TOTAL TRANSL GLOBAL Z 
+  END OUTPUT 
+*PHASE LABEL="Phased 1" 
+  BEGIN ACTIVE 
+    ELEMEN "Slab" "Column" "Load_plates" "Load_Plates-1" "Composed_EC" \ 
+           "Composed_MC" "Beam" "Interface Element" "Interface Element-1" \ 
+           "Corbel" "Support_plates" "Interface Element-2" "Beam_support" \ 
+           "Column_support" "Spring_vertical" / 
+    REINFO "Bar_16_column(1)" "Bar_16_column(2)" "Bar_16_Top(1)" \ 
+           "Bar_16_Top(2)" "Bar_16_Top(3)" "Bar_16_Top(4)" "Bar_16_Top(5)" \ 
+           "Bar_16_column(8)" "Bar_16_column(9)" "Bar_16_column(10)" \ 
+           "Bar_16_column(11)" "Bar_16_Top(6)" "Bar_16_Top(7)" \ 
+           "Bar_16_Top(8)" "Bar_16_column(3)" "Bar_16_Top(9)" \ 
+           "Bar_16_column(4)" "Bar_16_column(5)" "Bar_16_column(6)" \ 
+           "Bar_16_Top(10)" "Bar_16_column(1)-1" "Bar_16_column(2)-2" \ 
+           "Bar_16_column(3)-3" "Bar_16_column(4)-4" "Bar_16_Top(11)" \ 
+           "Bar_16_Top(12)" "Bar_16_Top(13)" "Bar_16_Top(14)" \ 
+           "Bar_16_column(5)-5" "Bar_16_column(6)-6" "Bar_16_Top(15)" \ 
+           "Bar_16_Top(16)" "Bar_16_Top(17)" "Bar_16_Top(18)" \ 
+           "Bar_16_Top(19)" "Bar_16_Top(20)" "Bar_16_half(1)" \ 
+           "Bar_16_half(2)" "Bar_16_half(3)" "Bar_16_half(1)-1" "Bar_16(9)" \ 
+           "Bar_16(10)" "Bar_16(11)" "Bar_16(12)" "Bar_16(13)" "Bar_16(14)" \ 
+           "Bar_16(15)" "Bar_16_half(2)-2" "Bar_12.5_half(1)" \ 
+           "Bar_12.5_half(2)" "Bar_12.5_half(3)" "Bar_12.5_half(1)-1" \ 
+           "Bar_12.5_half(2)-2" "Stirrups(1)" "Stirrups(2)" "Stirrups(3)" \ 
+           "Stirrups(4)" "Stirrups(5)" "Stirrups(6)" "Stirrups(7)" \ 
+           "Stirrups(8)" "Stirrups(9)" "Stirrups_6.3(1)" "Stirrups_6.3(2)" \ 
+           "Stirrups_6.3(3)" "Stirrups_6.3(4)" "Stirrups_6.3(5)" \ 
+           "Stirrups_6.3(6)" "Stirrups_6.3(7)" "Stirrups_6.3(8)" \ 
+           "Stirrups_6.3(9)" "Stirrups_6.3(10)" "Stirrups_6.3(11)" \ 
+           "Stirrups_6.3(12)" "Stirrups_6.3(22)" "Stirrups_6.3(23)" \ 
+           "Stirrups_6.3(1)-1" "Bar_16(34)" "Bar_16(35)" "Bar_16(36)" \ 
+           "Bar_16(37)" "Bar_16(38)" "Bar_16(39)" "Bar_16(40)" "Bar_16(41)" \ 
+           "Bar_16(42)" "Bar_16(43)" "Bar_16(44)" "Bar_16(45)" "Bar_16(46)" \ 
+           "Bar_16(47)" "Bar_16(17)-17" "Bar_16(18)-18" "Bar_16(19)-19" \ 
+           "Bar_16(20)-20" "Bar_16(21)-21" "Bar_16(22)-22" "Bar_16(23)-23" \ 
+           "Bar_16(24)-24" "Bar_16(25)-25" "Bar_16(26)-26" "Bar_16(27)-27" \ 
+           "Bar_16(28)-28" "Bar_16(29)-29" "Bar_16(30)-30" "Bar_12.5(1)" \ 
+           "Bar_12.5(2)" "Bar_12.5(3)" "Bar_12.5(4)" "Bar_12.5(5)" \ 
+           "Bar_12.5(6)" "Bar_12.5(14)" "Bar_12.5(15)" "Bar_12.5(16)" \ 
+           "Bar_12.5(17)" "Bar_12.5(18)" "Bar_12.5(19)" "Bar_12.5(20)" \ 
+           "Bar_12.5(21)" "Bar_12.5(22)" "Bar_12.5(23)" "Bar_12.5(24)" \ 
+           "Bar_12.5(25)" "Bar_12.5(1)-1" "Bar_12.5(2)-2" "Bar_12.5(3)-3" \ 
+           "Bar_12.5(4)-4" "Bar_12.5(5)-5" "Bar_12.5(6)-6" "Bar_12.5(7)-7" \ 
+           "Bar_12.5(8)-8" "Bar_12.5(9)-9" "Bar_12.5(10)-10" \ 
+           "Bar_12.5(11)-11" "Bar_12.5(12)-12" "Bar_12.5(13)-13" \ 
+           "Bar_12.5(14)-14" "Bar_12.5(15)-15" "Bar_12.5(16)-16" \ 
+           "Bar_12.5(17)-17" "Bar_12.5(18)-18" "Bar_12.5(19)-19" \ 
+           "Bar_12.5(20)-20" "Bar_12.5(21)-21" "Bar_12.5(22)-22" \ 
+           "Bar_12.5(23)-23" "Bar_12.5(24)-24" "Bar_12.5(25)-25" \ 
+           "Bar_12.5(26)" "Bar_12.5(27)" "Bar_12.5(28)" "Bar_12.5(29)" \ 
+           "Bar_12.5(30)" "Bar_12.5(31)" "Bar_12.5(32)" "Bar_12.5(33)" \ 
+           "Bar_12.5(34)" "Bar_12.5(35)" "Bar_12.5(36)" "Bar_12.5(37)" \ 
+           "Bar_12.5(38)" "Bar_12.5(39)" "Bar_12.5(40)" "Bar_12.5(41)" \ 
+           "Bar_12.5(42)" "Bar_12.5(43)" "Bar_12.5(44)" "Bar_12.5(45)" \ 
+           "Bar_12.5(46)" "Bar_12.5(47)" "Bar_12.5(48)" "Bar_12.5(49)" \ 
+           "Bar_12.5(50)" "Bar_12.5(51)" "Bar_12.5(52)" "Bar_12.5(53)" \ 
+           "Bar_12.5(54)" "Bar_12.5(55)" "Bar_12.5(56)" "Bar_12.5(57)" \ 
+           "Bar_12.5(58)" "Bar_12.5(59)" "Bar_12.5(60)" "Bar_12.5(1)-62" \ 
+           "Bar_12.5(2)-63" "Bar_12.5(3)-64" "Bar_12.5(4)-65" \ 
+           "Bar_12.5(5)-66" "Bar_12.5(6)-67" "Bar_12.5(7)-68" \ 
+           "Bar_12.5(8)-69" "Bar_12.5(9)-70" "Bar_12.5(10)-71" \ 
+           "Bar_12.5(11)-72" "Bar_12.5(12)-73" "Bar_12.5(1)-88" \ 
+           "Bar_12.5(2)-89" "Bar_12.5(3)-90" "Bar_12.5(4)-91" \ 
+           "Bar_12.5(5)-92" "Bar_12.5(6)-93" "Bar_12.5(7)-94" \ 
+           "Bar_12.5(8)-95" "Bar_12.5(9)-96" "Bar_12.5(10)-97" \ 
+           "Bar_12.5(11)-98" "Bar_12.5(12)-99" "Bar_12.5(13)-100" \ 
+           "Bar_12.5(14)-101" "Bar_12.5(15)-102" "Bar_12.5(16)-103" \ 
+           "Bar_12.5(17)-104" "Bar_12.5(18)-105" "Bar_12.5(19)-106" \ 
+           "Bar_12.5(20)-107" "Bar_12.5(21)-108" "Bar_12.5(22)-109" \ 
+           "Bar_12.5(23)-110" "Bar_12.5(24)-111" "Bar_12.5(25)-112" \ 
+           "Bar_12.5(26)-113" "Bar_12.5(27)-114" "Bar_12.5(28)-115" \ 
+           "Bar_12.5(29)-116" "Bar_12.5(30)-117" "Bar_12.5(31)-118" \ 
+           "Bar_12.5(32)-119" "Bar_12.5(33)-120" "Bar_12.5(34)-121" \ 
+           "Bar_12.5(35)-122" "Bar_12.5(36)-123" "Bar_12.5(37)-124" \ 
+           "Bar_12.5(38)-125" "Bar_12.5(39)-126" "Bar_12.5(40)-127" \ 
+           "Bar_12.5(41)-128" "Bar_12.5(42)-129" "Bar_12.5(43)-130" \ 
+           "Bar_12.5(44)-131" "Bar_12.5(45)-132" "Bar_12.5(46)-133" \ 
+           "Bar_12.5(47)-134" "Bar_12.5(48)-135" "Bar_12.5(49)-136" \ 
+           "Bar_12.5(50)-137" "Bar_12.5(51)-138" "Bar_12.5(52)-139" / 
+    SUPPOR "horizontal" "transversal" "beam" "column" "L_Displacement" 
+    TYINGS "Link Element" "Link Element-1" 
+    BEGIN AUTODE 
+      INTERF OFF 
+      BOUNDA OFF 
+    END AUTODE 
+  END ACTIVE 
+*NONLIN LABEL="Structural nonlinear 1" 
+  BEGIN EXECUT 
+    BEGIN LOAD 
+      LOADNR 1 
+      STEPS EXPLIC 
+    END LOAD 
+    BEGIN ITERAT 
+      MAXITE 100 
+      METHOD NEWTON 
+      LINESE 
+      BEGIN CONVER 
+        SIMULT ON 
+        FORCE CONTIN 
+        DISPLA CONTIN 
+        ENERGY CONTIN 
+      END CONVER 
+    END ITERAT 
+  END EXECUT 
+  BEGIN EXECUT 
+    TEXT "new execute block 2" 
+    BEGIN LOAD 
+      LOADNR 2 
+      BEGIN STEPS 
+        EXPLIC SIZES 0.2(25) 
+        SAVE 26 / 
+      END STEPS 
+    END LOAD 
+    BEGIN ITERAT 
+      MAXITE 100 
+      METHOD NEWTON 
+      LINESE 
+      BEGIN CONVER 
+        SIMULT ON 
+        FORCE CONTIN 
+        DISPLA CONTIN 
+        ENERGY CONTIN 
+      END CONVER 
+    END ITERAT 
+  END EXECUT 
+  SOLVE PARDIS 
+  BEGIN OUTPUT 
+    TEXT "Output 2" 
+    TABULA 
+    FILE  L1_13_DISP 
+    APPEND 
+    LAYOUT 
+    BEGIN SELECT 
+      NODES 39185 / 
+      BEGIN ELEMEN ALL / 
+        CROSSE ALL / 
+        INTPNT ALL / 
+        NODES ALL / 
+        STRPNT ALL / 
+      END ELEMEN 
+      BEGIN REINFO ALL / 
+        ELEMEN ALL / 
+        INTPNT ALL / 
+      END REINFO 
+      STEPS ALL / 
+    END SELECT 
+    FORCE REACTI TRANSL GLOBAL Z 
+  END OUTPUT 
+  BEGIN OUTPUT 
+    TEXT "Output 3" 
+    TABULA 
+    FILE  L1_13_FORCE 
+    APPEND 
+    LAYOUT 
+    BEGIN SELECT 
+      NODES 7496 / 
+      BEGIN ELEMEN ALL / 
+        CROSSE ALL / 
+        INTPNT ALL / 
+        NODES ALL / 
+        STRPNT ALL / 
+      END ELEMEN 
+      BEGIN REINFO ALL / 
+        ELEMEN ALL / 
+        INTPNT ALL / 
+      END REINFO 
+      STEPS ALL / 
+    END SELECT 
+    DISPLA TOTAL TRANSL GLOBAL Z 
+  END OUTPUT 
+*NONLIN LABEL="Structural nonlinear 2" 
+  BEGIN EXECUT 
+    TEXT "new execute block 2" 
+    BEGIN LOAD 
+      LOADNR 2 
+      BEGIN STEPS 
+        EXPLIC SIZES 0.2(25) 
+        RESTOR 26 
+      END STEPS 
+    END LOAD 
+    BEGIN ITERAT 
+      MAXITE 100 
+      METHOD NEWTON 
+      LINESE 
+      BEGIN CONVER 
+        SIMULT ON 
+        FORCE CONTIN 
+        DISPLA CONTIN 
+        ENERGY CONTIN 
+      END CONVER 
+    END ITERAT 
+    BEGIN STOP 
+      BEGIN RESULT 
+        BEGIN SELECT 
+          NODES 39185 / 
+          BEGIN ELEMEN ALL / 
+            CROSSE ALL / 
+            INTPNT ALL / 
+            NODES ALL / 
+            STRPNT ALL / 
+          END ELEMEN 
+          BEGIN REINFO ALL / 
+            ELEMEN ALL / 
+            INTPNT ALL / 
+          END REINFO 
+        END SELECT 
+        BEGIN FORCE 
+          BEGIN REACTI 
+            BEGIN TRANSL 
+              BEGIN GLOBAL 
+                Z 
+                MAXVAL -120000 
+              END GLOBAL 
+            END TRANSL 
+          END REACTI 
+        END FORCE 
+      END RESULT 
+    END STOP 
+  END EXECUT 
+  SOLVE PARDIS 
+  BEGIN OUTPUT 
+    TEXT "Output 2" 
+    TABULA 
+    FILE  L1_13_DISP 
+    APPEND 
+    LAYOUT 
+    BEGIN SELECT 
+      NODES 39185 / 
+      BEGIN ELEMEN ALL / 
+        CROSSE ALL / 
+        INTPNT ALL / 
+        NODES ALL / 
+        STRPNT ALL / 
+      END ELEMEN 
+      BEGIN REINFO ALL / 
+        ELEMEN ALL / 
+        INTPNT ALL / 
+      END REINFO 
+      STEPS ALL / 
+    END SELECT 
+    FORCE REACTI TRANSL GLOBAL Z 
+  END OUTPUT 
+  BEGIN OUTPUT 
+    TEXT "Output 3" 
+    TABULA 
+    FILE  L1_13_FORCE 
+    APPEND 
+    LAYOUT 
+    BEGIN SELECT 
+      NODES 7496 / 
+      BEGIN ELEMEN ALL / 
+        CROSSE ALL / 
+        INTPNT ALL / 
+        NODES ALL / 
+        STRPNT ALL / 
+      END ELEMEN 
+      BEGIN REINFO ALL / 
+        ELEMEN ALL / 
+        INTPNT ALL / 
+      END REINFO 
+      STEPS ALL / 
+    END SELECT 
+    DISPLA TOTAL TRANSL GLOBAL Z 
+  END OUTPUT 
+*END 

@@ -1,0 +1,150 @@
+importModel( "C:/Users/labmem/Desktop/Rafael/UnB/input_1.dat" ) 
+addAnalysis( "command_1" ) 
+loadAnalysisCommands( "command_1","C:/Users/labmem/Desktop/Rafael/UnB/command_1.dcf" ) 
+runSolver( "command_1" ) 
+  
+importModel( "C:/Users/labmem/Desktop/Rafael/UnB/input_2.dat" ) 
+addAnalysis( "command_2" ) 
+loadAnalysisCommands( "command_2","C:/Users/labmem/Desktop/Rafael/UnB/command_2.dcf" ) 
+runSolver( "command_2" ) 
+  
+importModel( "C:/Users/labmem/Desktop/Rafael/UnB/input_3.dat" ) 
+addAnalysis( "command_3" ) 
+loadAnalysisCommands( "command_3","C:/Users/labmem/Desktop/Rafael/UnB/command_3.dcf" ) 
+runSolver( "command_3" ) 
+  
+importModel( "C:/Users/labmem/Desktop/Rafael/UnB/input_4.dat" ) 
+addAnalysis( "command_4" ) 
+loadAnalysisCommands( "command_4","C:/Users/labmem/Desktop/Rafael/UnB/command_4.dcf" ) 
+runSolver( "command_4" ) 
+  
+importModel( "C:/Users/labmem/Desktop/Rafael/UnB/input_5.dat" ) 
+addAnalysis( "command_5" ) 
+loadAnalysisCommands( "command_5","C:/Users/labmem/Desktop/Rafael/UnB/command_5.dcf" ) 
+runSolver( "command_5" ) 
+  
+importModel( "C:/Users/labmem/Desktop/Rafael/UnB/input_6.dat" ) 
+addAnalysis( "command_6" ) 
+loadAnalysisCommands( "command_6","C:/Users/labmem/Desktop/Rafael/UnB/command_6.dcf" ) 
+runSolver( "command_6" ) 
+  
+importModel( "C:/Users/labmem/Desktop/Rafael/UnB/input_7.dat" ) 
+addAnalysis( "command_7" ) 
+loadAnalysisCommands( "command_7","C:/Users/labmem/Desktop/Rafael/UnB/command_7.dcf" ) 
+runSolver( "command_7" ) 
+  
+importModel( "C:/Users/labmem/Desktop/Rafael/UnB/input_8.dat" ) 
+addAnalysis( "command_8" ) 
+loadAnalysisCommands( "command_8","C:/Users/labmem/Desktop/Rafael/UnB/command_8.dcf" ) 
+runSolver( "command_8" ) 
+  
+importModel( "C:/Users/labmem/Desktop/Rafael/UnB/input_9.dat" ) 
+addAnalysis( "command_9" ) 
+loadAnalysisCommands( "command_9","C:/Users/labmem/Desktop/Rafael/UnB/command_9.dcf" ) 
+runSolver( "command_9" ) 
+  
+importModel( "C:/Users/labmem/Desktop/Rafael/UnB/input_10.dat" ) 
+addAnalysis( "command_10" ) 
+loadAnalysisCommands( "command_10","C:/Users/labmem/Desktop/Rafael/UnB/command_10.dcf" ) 
+runSolver( "command_10" ) 
+  
+importModel( "C:/Users/labmem/Desktop/Rafael/UnB/input_11.dat" ) 
+addAnalysis( "command_11" ) 
+loadAnalysisCommands( "command_11","C:/Users/labmem/Desktop/Rafael/UnB/command_11.dcf" ) 
+runSolver( "command_11" ) 
+  
+importModel( "C:/Users/labmem/Desktop/Rafael/UnB/input_12.dat" ) 
+addAnalysis( "command_12" ) 
+loadAnalysisCommands( "command_12","C:/Users/labmem/Desktop/Rafael/UnB/command_12.dcf" ) 
+runSolver( "command_12" ) 
+  
+importModel( "C:/Users/labmem/Desktop/Rafael/UnB/input_13.dat" ) 
+addAnalysis( "command_13" ) 
+loadAnalysisCommands( "command_13","C:/Users/labmem/Desktop/Rafael/UnB/command_13.dcf" ) 
+runSolver( "command_13" ) 
+  
+importModel( "C:/Users/labmem/Desktop/Rafael/UnB/input_14.dat" ) 
+addAnalysis( "command_14" ) 
+loadAnalysisCommands( "command_14","C:/Users/labmem/Desktop/Rafael/UnB/command_14.dcf" ) 
+runSolver( "command_14" ) 
+  
+importModel( "C:/Users/labmem/Desktop/Rafael/UnB/input_15.dat" ) 
+addAnalysis( "command_15" ) 
+loadAnalysisCommands( "command_15","C:/Users/labmem/Desktop/Rafael/UnB/command_15.dcf" ) 
+runSolver( "command_15" ) 
+  
+importModel( "C:/Users/labmem/Desktop/Rafael/UnB/input_16.dat" ) 
+addAnalysis( "command_16" ) 
+loadAnalysisCommands( "command_16","C:/Users/labmem/Desktop/Rafael/UnB/command_16.dcf" ) 
+runSolver( "command_16" ) 
+  
+importModel( "C:/Users/labmem/Desktop/Rafael/UnB/input_17.dat" ) 
+addAnalysis( "command_17" ) 
+loadAnalysisCommands( "command_17","C:/Users/labmem/Desktop/Rafael/UnB/command_17.dcf" ) 
+runSolver( "command_17" ) 
+  
+importModel( "C:/Users/labmem/Desktop/Rafael/UnB/input_18.dat" ) 
+addAnalysis( "command_18" ) 
+loadAnalysisCommands( "command_18","C:/Users/labmem/Desktop/Rafael/UnB/command_18.dcf" ) 
+runSolver( "command_18" ) 
+  
+importModel( "C:/Users/labmem/Desktop/Rafael/UnB/input_19.dat" ) 
+addAnalysis( "command_19" ) 
+loadAnalysisCommands( "command_19","C:/Users/labmem/Desktop/Rafael/UnB/command_19.dcf" ) 
+runSolver( "command_19" ) 
+  
+importModel( "C:/Users/labmem/Desktop/Rafael/UnB/input_20.dat" ) 
+addAnalysis( "command_20" ) 
+loadAnalysisCommands( "command_20","C:/Users/labmem/Desktop/Rafael/UnB/command_20.dcf" ) 
+runSolver( "command_20" ) 
+  
+importModel( "C:/Users/labmem/Desktop/Rafael/UnB/input_21.dat" ) 
+addAnalysis( "command_21" ) 
+loadAnalysisCommands( "command_21","C:/Users/labmem/Desktop/Rafael/UnB/command_21.dcf" ) 
+runSolver( "command_21" ) 
+  
+importModel( "C:/Users/labmem/Desktop/Rafael/UnB/input_22.dat" ) 
+addAnalysis( "command_22" ) 
+loadAnalysisCommands( "command_22","C:/Users/labmem/Desktop/Rafael/UnB/command_22.dcf" ) 
+runSolver( "command_22" ) 
+  
+importModel( "C:/Users/labmem/Desktop/Rafael/UnB/input_23.dat" ) 
+addAnalysis( "command_23" ) 
+loadAnalysisCommands( "command_23","C:/Users/labmem/Desktop/Rafael/UnB/command_23.dcf" ) 
+runSolver( "command_23" ) 
+  
+importModel( "C:/Users/labmem/Desktop/Rafael/UnB/input_24.dat" ) 
+addAnalysis( "command_24" ) 
+loadAnalysisCommands( "command_24","C:/Users/labmem/Desktop/Rafael/UnB/command_24.dcf" ) 
+runSolver( "command_24" ) 
+  
+importModel( "C:/Users/labmem/Desktop/Rafael/UnB/input_25.dat" ) 
+addAnalysis( "command_25" ) 
+loadAnalysisCommands( "command_25","C:/Users/labmem/Desktop/Rafael/UnB/command_25.dcf" ) 
+runSolver( "command_25" ) 
+  
+importModel( "C:/Users/labmem/Desktop/Rafael/UnB/input_26.dat" ) 
+addAnalysis( "command_26" ) 
+loadAnalysisCommands( "command_26","C:/Users/labmem/Desktop/Rafael/UnB/command_26.dcf" ) 
+runSolver( "command_26" ) 
+  
+importModel( "C:/Users/labmem/Desktop/Rafael/UnB/input_27.dat" ) 
+addAnalysis( "command_27" ) 
+loadAnalysisCommands( "command_27","C:/Users/labmem/Desktop/Rafael/UnB/command_27.dcf" ) 
+runSolver( "command_27" ) 
+  
+importModel( "C:/Users/labmem/Desktop/Rafael/UnB/input_28.dat" ) 
+addAnalysis( "command_28" ) 
+loadAnalysisCommands( "command_28","C:/Users/labmem/Desktop/Rafael/UnB/command_28.dcf" ) 
+runSolver( "command_28" ) 
+  
+importModel( "C:/Users/labmem/Desktop/Rafael/UnB/input_29.dat" ) 
+addAnalysis( "command_29" ) 
+loadAnalysisCommands( "command_29","C:/Users/labmem/Desktop/Rafael/UnB/command_29.dcf" ) 
+runSolver( "command_29" ) 
+  
+importModel( "C:/Users/labmem/Desktop/Rafael/UnB/input_30.dat" ) 
+addAnalysis( "command_30" ) 
+loadAnalysisCommands( "command_30","C:/Users/labmem/Desktop/Rafael/UnB/command_30.dcf" ) 
+runSolver( "command_30" ) 
+  
